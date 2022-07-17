@@ -10,4 +10,5 @@ class Parser2:
         with open(filename) as jsonFile:
             clientes = json.load(jsonFile)
 
+        # cliente.inicializar(datos)
         return (clientes)
